@@ -3,7 +3,7 @@
 //  Ding
 //
 //  Created by Tim Hart on 11/5/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
+//  Copyright 2012 9red7. All rights reserved.
 //
 
 #import "Menu.h"

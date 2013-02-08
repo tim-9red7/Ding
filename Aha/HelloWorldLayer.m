@@ -3,7 +3,7 @@
 //  Aha
 //
 //  Created by Tim Hart on 10/25/12.
-//  Copyright __MyCompanyName__ 2012. All rights reserved.
+//  Copyright 9red7 2012. All rights reserved.
 //
 
 

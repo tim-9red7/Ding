@@ -13,8 +13,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "67"
          endingLineNumber = "67"
-         landmarkName = "-resetCountinMainScene:"
-         landmarkType = "5">
+         landmarkName = "@implementation AhaAppDelegate"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -26,8 +26,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "68"
          endingLineNumber = "68"
-         landmarkName = "-resetCountinMainScene:"
-         landmarkType = "5">
+         landmarkName = "@implementation AhaAppDelegate"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -52,8 +52,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "69"
          endingLineNumber = "69"
-         landmarkName = "-resetCountinMainScene:"
-         landmarkType = "5">
+         landmarkName = "@implementation AhaAppDelegate"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
