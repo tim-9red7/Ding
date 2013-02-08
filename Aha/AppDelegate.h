@@ -7,6 +7,7 @@
 //
 
 #import "cocos2d.h"
+#import "HelloWorldLayer.h"
 
 @interface AhaAppDelegate : NSObject <NSApplicationDelegate>
 {
@@ -16,7 +17,10 @@
 
 @property (assign) IBOutlet NSWindow	*window;
 @property (assign) IBOutlet CCGLView	*glView;
+@property (strong) CCScene *mainScene;
 
 - (IBAction)toggleFullScreen:(id)sender;
+
+- (IBAction)resetCountinMainScene:(id)sender;
 
 @end

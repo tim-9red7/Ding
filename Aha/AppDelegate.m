@@ -10,14 +10,14 @@
 #import "HelloWorldLayer.h"
 
 @implementation AhaAppDelegate
-@synthesize window=window_, glView=glView_;
+@synthesize window=window_, glView=glView_, mainScene=mainScene_;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 	CCDirectorMac *director = (CCDirectorMac*) [CCDirector sharedDirector];
 
 	// enable FPS and SPF
-	[director setDisplayStats:YES];
+	//[director setDisplayStats:YES];
 	
 	// connect the OpenGL view with the director
 	[director setView:glView_];
@@ -33,7 +33,12 @@
 	// Center main window
 	[window_ center];
 	
-	[director runWithScene:[HelloWorldLayer scene]];
+    CCScene *scene = [HelloWorldLayer scene];
+    
+    //Assign this to the property of app delegate. This is done so we can send the scene messages from the xib.
+    mainScene_ = scene;
+    
+	[director runWithScene:scene];
 }
 
 - (BOOL) applicationShouldTerminateAfterLastWindowClosed: (NSApplication *) theApplication
@@ -56,4 +61,12 @@
 	[director setFullScreen: ! [director isFullScreen] ];
 }
 
+//This shit doesn't work. Not sure why. I'll just build it into the Scene. How to send message from XIB to the scene?
+/*
+- (IBAction)resetCountinMainScene:(id)sender    {
+    //Forget the warning here. It works mofo.
+    HelloWorldLayer *layer = (HelloWorldLayer*)mainScene_;
+    [layer performSelector:@selector(resetDingCount)];
+}
+ */
 @end
